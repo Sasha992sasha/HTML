@@ -1,0 +1,20 @@
+#head {
+    display: flex;
+    background-color: #c40431;
+    padding: 2%;
+    width: 100%;
+}
+body {
+    background-color: #880322;
+}
+#button {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+span {
+    text-align: center;
+}
+label{
+    font-family: Inter;
+}
+
