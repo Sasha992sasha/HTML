@@ -1,20 +1,30 @@
+body {
+    background-color: #880322;
+    margin: 0;
+}
+
 #head {
     display: flex;
     background-color: #c40431;
-    padding: 2%;
+    padding: 1%;
     width: 100%;
-}
-body {
-    background-color: #880322;
-}
-#button {
-    display: grid;
-    grid-template-rows: auto auto;
-}
-span {
-    text-align: center;
-}
-label{
-    font-family: Inter;
+    justify-content: center;
 }
 
+.button {
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 2%;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.material-symbols-outlined {
+    font-size: 32px; /* розмір іконки */
+}
+
+label {
+    font-family: Inter, sans-serif;
+    margin-top: 4px;
+}
