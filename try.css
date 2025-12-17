@@ -23,6 +23,7 @@ body {
     text-align: center;
     color: white;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -50,7 +51,7 @@ label {
     color: #cf9aa7;
     width: 360px;
     height: auto;
-    
+    cursor: pointer;
 }
 h2 {
     text-align: center;
@@ -75,4 +76,11 @@ img {
     height: 250px;
     border-radius: 25px;
     padding: 2%;
+    transition: transform 0.2s ease; 
+    cursor: pointer;
 }
+
+img:hover {
+    transform: scale(1.05);
+}
+
