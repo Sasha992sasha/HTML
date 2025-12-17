@@ -22,15 +22,17 @@ body {
     align-items: center;
     text-align: center;
     color: white;
+    border-radius: 20px;
 }
 
-.button {
+.button:hover {
     display: grid;
     grid-template-rows: auto auto;
     padding: 2%;
     align-items: center;
     text-align: center;
-    color: white;
+    background-color:  #a10328;
+    border-radius: 20px;
 }
 
 
