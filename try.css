@@ -1,3 +1,7 @@
+* {
+    font-family: Inter, sans-serif;
+}
+
 body {
     background-color: #880322;
     margin: 0;
@@ -18,13 +22,65 @@ body {
     align-items: center;
     text-align: center;
     color: white;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
+.button:hover {
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 2%;
+    align-items: center;
+    text-align: center;
+    background-color:  #a10328;
+    border-radius: 20px;
+}
+
+
+
 .material-symbols-outlined {
-    font-size: 32px; /* розмір іконки */
+    font-size: 32px; 
 }
 
 label {
     font-family: Inter, sans-serif;
     margin-top: 4px;
 }
+
+#text {
+    color: #cf9aa7;
+    width: 360px;
+    height: auto;
+    cursor: pointer;
+}
+h2 {
+    text-align: center;
+}
+
+h2:hover{
+    color: white;
+}
+
+#defolt {
+    display: flex;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: px;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+    border-radius: 25px;
+    padding: 2%;
+    transition: transform 0.2s ease; 
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
