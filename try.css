@@ -38,7 +38,7 @@ body {
 
 
 .material-symbols-outlined {
-    font-size: 32px; /* розмір іконки */
+    font-size: 32px; 
 }
 
 label {
@@ -48,8 +48,14 @@ label {
 
 #text {
     color: #cf9aa7;
+    width: 360px;
+    height: auto;
     
 }
+h2 {
+    text-align: center;
+}
+
 h2:hover{
     color: white;
 }
